@@ -31,20 +31,48 @@ GROUP BY runner_id;
 ### 4. How many of each type of pizza was delivered?
 **Query**
 ````sql
+SELECT 
+pizza_names.pizza_name,
+COUNT(customer_orders.order_id)
+FROM customer_orders
+LEFT JOIN runner_orders
+  ON customer_orders.order_id = runner_orders.order_id
+LEFT JOIN pizza_names
+  ON customer_orders.pizza_id = pizza_names.pizza_id
+WHERE runner_orders.distance NOT LIKE "null"
+GROUP BY pizza_names.pizza_name;
 ````
 **Answer**
 
 ### 5. How many Vegetarian and Meatlovers were ordered by each customer?
 **Query**
 ````sql
-
+SELECT 
+customer_id,
+pizza_names.pizza_name,
+COUNT(pizza_names.pizza_id) as pizzas_ordered
+FROM customer_orders
+LEFT JOIN pizza_names
+ON customer_orders.pizza_id = pizza_names.pizza_id
+GROUP BY customer_orders.customer_id, pizza_names.pizza_name
 ````
 **Answer**
 
 ### 6. What was the maximum number of pizzas delivered in a single order?
 **Query**
 ````sql
-
+SELECT 
+order_id, 
+MAX(pizzas_delivered) AS pizzas_delivered
+FROM (
+SELECT customer_orders.order_id,
+COUNT(customer_orders.order_id) AS pizzas_delivered
+FROM customer_orders
+LEFT JOIN runner_orders
+ON customer_orders.order_id  = runner_orders.order_id
+WHERE distance NOT LIKE "null"
+GROUP BY customer_orders.order_id
+)
 ````
 **Answer**
 
