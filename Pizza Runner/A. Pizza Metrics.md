@@ -19,14 +19,18 @@ SELECT COUNT(DISTINCT customer_id) AS unique_orders FROM customer_orders;
 ### 3. How many successful orders were delivered by each runner?
 **Query**
 ````sql
-
+SELECT 
+runner_id as 'runner',
+COUNT(order_id) as 'successful_orders'
+FROM runner_orders
+WHERE distance NOT LIKE "null"
+GROUP BY runner_id;
 ````
 **Answer**
 
 ### 4. How many of each type of pizza was delivered?
 **Query**
 ````sql
-
 ````
 **Answer**
 
