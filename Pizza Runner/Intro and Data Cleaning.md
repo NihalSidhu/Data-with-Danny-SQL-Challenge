@@ -12,3 +12,11 @@ UPDATE customer_orders
 SET extras = "" 
 WHERE extras IS NULL OR extras LIKE "null";
 ````
+
+## Table: runner_orders
+
+````sql
+UPDATE customer_orders 
+SET exclusions = ""
+WHERE exclusions LIKE "null";
+````
