@@ -32,10 +32,15 @@ FROM customer_orders
 ````
 Below is how the customer_orders_cleaned table looks like. The new table now contains values that are cleaned and we can easily utilize this table for future queries.
 
+customer_orders_cleaned table
 ![customer_orders_cleaned](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/ad39e96c-feb9-4cf9-8579-017a80a86966)
 
 ## Cleaning table *runner_orders* 
 Looking at runner_orders table we can see that there are values labeled "null" and NULL values throughout the table. Along with this, we can see that there are columns with different value types throughout. For example, the distance column has some values with "km" and some without. Similarly, the duration column has some with "minutes" or "mins".  I will create a new table labeled "runner_orders_cleaned" that will replace the messy values with "" and will standardize the values in the distance and duration columns. 
+
+runner_orders table
+
+![runner_orders](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/2bd210a9-b6b8-4c46-9806-9d6229b2e006)
 
 ````sql
 CREATE Table runner_orders_cleaned AS
@@ -64,3 +69,5 @@ CASE
 END AS cancellation
 FROM runner_orders
 ````
+runner_orders_cleaned table
+![runner_orders_cleaned](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/d162d7d3-49f4-4d2b-a542-346f8c4e31eb)
