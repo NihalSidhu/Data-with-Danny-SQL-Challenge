@@ -6,8 +6,8 @@ At initial glance of the customer_orders table I noticed that there were some is
 
 - The 'exclusion's column has multiple values labeled as "null"
 - The 'extras'  column has multiple values labeled as "null" or are actually null.
+![customer_orders](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/2b42cb09-925d-4d6d-a819-ea727da1a93b)
 
-TABLE
 
 With the rogue data in these two columns, I needed to create a new cleaned version of the customer_orders. In order to do this, I replaced the dirty data with blanks in the new customer_orders_cleaned table. 
 
