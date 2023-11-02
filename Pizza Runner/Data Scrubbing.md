@@ -1,7 +1,15 @@
-# Data Cleaning
+# Data Scrubbing
+Prior to solving any of the case study questions, I needed to clean up the datasets. Just from initial glance at the provided tables, I noticed that some tables contained null values and other tables had inconsistent variable usage in their columns. Below I discuss the data cleaning I needed to do to the tables in order to make progress with the questions.
 
-## Table: customer_orders
-Looking at customer_orders table we can see that there are values labeled "null" and NULL values throughout the table. I will create a new table labeled "customer_orders_cleaned" that will replace the messy values with "". 
+## Cleaning table customer_orders 
+At initial glance of the customer_orders table I noticed that there were some issues with it. We can see a few issues, such as
+
+- The 'exclusion's column has multiple values labeled as "null"
+- The 'extras'  column has multiple values labeled as "null" or are actually null.
+
+TABLE
+
+With the rogue data in these two columns, I needed to create a new cleaned version of the customer_orders. In order to do this, I replaced the dirty data with blanks in the new customer_orders_cleaned table. 
 
 ````sql
 CREATE Table customer_orders_cleaned AS
@@ -20,6 +28,12 @@ END AS extras,
 order_time
 FROM customer_orders
 ````
+
+
+
+
+
+
 
 ## Table: runner_orders
 Looking at runner_orders table we can see that there are values labeled "null" and NULL values throughout the table. Along with this, we can see that there are columns with different value types throughout. For example, the distance column has some values with "km" and some without. Similarly, the duration column has some with "minutes" or "mins".  I will create a new table labeled "runner_orders_cleaned" that will replace the messy values with "" and will standardize the values in the distance and duration columns. 
