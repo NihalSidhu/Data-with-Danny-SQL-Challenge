@@ -54,6 +54,7 @@ With the inconsistencies across the table, I needed to create a new cleaned vers
 - distance:  Replaced 'null' and 'km' with blanks
 - duration: Replaced 'min', 'minute', 'minutes' and 'null' with blanks
 - cancellation: Replaced 'null' and NULL with blanks
+  
 All these updates were then applied into a new table, runner_orders_cleaned
 
 ````sql
