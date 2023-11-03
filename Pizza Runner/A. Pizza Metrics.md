@@ -110,6 +110,8 @@ ON
 ````
 **Answer**
 
+![A6](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/bd25d655-4cb8-4111-a435-66aeb802396a)
+
 ### 7. For each customer, how many delivered pizzas had at least 1 change and how many had no changes?
 **Query**
 ````sql
