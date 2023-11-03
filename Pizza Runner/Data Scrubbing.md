@@ -30,13 +30,12 @@ END AS extras,
 order_time
 FROM customer_orders
 ````
-Below is how the customer_orders_cleaned table looks like. The new table now contains values that are cleaned and we can easily utilize this table for future queries.
-
+Below is how the customer_orders_cleaned table looks like.
 *customer_orders_cleaned table*
 
 ![customer_orders_cleaned](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/ad39e96c-feb9-4cf9-8579-017a80a86966)
 
-Now that I have a cleaned version of customer_orders, I then moved to the other dirty table, runner_orders.
+With a cleaned version of customer_orders, I then moved to the other dirty table, runner_orders.
 
 ## Cleaning table *runner_orders* 
 When looking over the runner_orders table, I noticed multiple key issues with the dataset. Some of the issues noticed were:
@@ -55,6 +54,7 @@ With the inconsistencies across the table, I needed to create a new cleaned vers
 - distance:  Replaced 'null' and 'km' with blanks
 - duration: Replaced 'min', 'minute', 'minutes' and 'null' with blanks
 - cancellation: Replaced 'null' and NULL with blanks
+All these updates were then applied into a new table, runner_orders_cleaned
 
 ````sql
 CREATE Table runner_orders_cleaned AS
@@ -83,8 +83,11 @@ CASE
 END AS cancellation
 FROM runner_orders
 ````
+
+Below is how the runner_orders_cleaned table looks like.
+
 *runner_orders_cleaned table*
 
 ![runner_orders_cleaned](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/d162d7d3-49f4-4d2b-a542-346f8c4e31eb)
 
-With both cleaned tables, I was then ready to dive into the questions in the case study. The first part, pizza metrics, can be found [here](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/blob/main/Pizza%20Runner/A.%20Pizza%20Metrics.md).
+With both cleaned tables, I was then ready to dive into the questions in the case study and use these tables for some queries. The first part, pizza metrics, can be found [here](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/blob/main/Pizza%20Runner/A.%20Pizza%20Metrics.md).
