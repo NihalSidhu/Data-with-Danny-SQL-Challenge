@@ -10,7 +10,7 @@ SELECT
 FROM
 	customer_orders_cleaned;
 ````
-**Answer**
+**Answer**: 14 pizzas were ordered
 
 ![A1](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/492f9ff5-26e2-4ca5-bc18-f2be9e67ae36)
 
@@ -22,7 +22,7 @@ SELECT
 FROM
 	customer_orders_cleaned;
 ````
-**Answer**
+**Answer**: There were 5 unique customer orders
 
 ![A2](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/b5b0d76e-e925-498a-92ca-b42135e51930)
 
@@ -39,7 +39,7 @@ WHERE
 GROUP BY
 	runner_id;
 ````
-**Answer**
+**Answer**: Runner 1 had 4 successful orders, runner 2 had 3 successful orders, runner 3 had 1 successful order
 
 ![A3](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/2e9cbadc-43ca-44ba-ab18-0ddc1512d3a9)
 
@@ -62,7 +62,7 @@ WHERE
 GROUP BY
 	p.pizza_name;
 ````
-**Answer**
+**Answer**: There were 9 meatlovers pizzas delivered and 3 vegetarian pizzas delivered
 
 ![A4](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/9542952f-ea50-4b66-8a79-373c51e69ff4)
 
@@ -82,7 +82,7 @@ GROUP BY
 	c.customer_id,
 	p.pizza_name;
 ````
-**Answer**
+**Answer** Solution provided in table below
 
 ![A5](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/df7060d1-c720-4c6a-b8c6-e63bd00943f8)
 
@@ -108,7 +108,7 @@ ON
 		c.order_id
 )
 ````
-**Answer**
+**Answer**: The maximum number of pizzas delivered in a single order was 3
 
 ![A6](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/bd25d655-4cb8-4111-a435-66aeb802396a)
 
@@ -135,7 +135,7 @@ WHERE
 GROUP BY
 	c.customer_id;
 ````
-**Answer**
+**Answer**: Solution provided in table below
 
 ![A7](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/8bdbdef1-5d94-49de-92af-828b9fa85dc7)
 
@@ -154,7 +154,7 @@ WHERE
 	AND c.exclusions <> ''
 	AND c.extras <> '';
 ````
-**Answer**
+**Answer**: Only 1 pizza was delivered that had both exclusions and extras
 
 ![A8](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/fe356649-4409-4896-9f98-6514961e28d4)
 
