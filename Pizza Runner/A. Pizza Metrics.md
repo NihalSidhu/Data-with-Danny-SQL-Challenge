@@ -169,16 +169,21 @@ FROM
 GROUP BY
 	hour_time;
 ````
-**Answer**
+**Answer**: Solution provided in table below
+
+![A9](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/ae485ad0-0bbb-48c0-a25f-2b454d7f3885)
 
 ### 10. What was the volume of orders for each day of the week?
 **Query**
 ````sql
 SELECT
-	DATEPART(WEEKDAY, order_time) as days
+	DATEPART(WEEKDAY, order_time) as days,
+	COUNT(order_id) AS pizza_volume
 FROM
 	customer_orders_cleaned
 GROUP BY
 	days;
 ````
-**Answer**
+**Answer**: Solution provided in table below
+
+![A10](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/d10c4ca5-a271-4b1f-b392-7ee646b06ef9)
