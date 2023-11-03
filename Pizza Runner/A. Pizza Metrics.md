@@ -24,6 +24,8 @@ FROM
 ````
 **Answer**
 
+![A2](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/b5b0d76e-e925-498a-92ca-b42135e51930)
+
 ### 3. How many successful orders were delivered by each runner?
 **Query**
 ````sql
@@ -38,6 +40,8 @@ GROUP BY
 	runner_id;
 ````
 **Answer**
+
+![A3](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/2e9cbadc-43ca-44ba-ab18-0ddc1512d3a9)
 
 ### 4. How many of each type of pizza was delivered?
 **Query**
