@@ -12,11 +12,19 @@
 
 
 ## The Problem at Hand
-TO DO
+Danny has recently been inspired by local pizza businesses and has decided to open a pizza shop, right inside his home. In order to sell his pizzas to customers from all around, he wants to create a strog delivery system. Danny recruited different runners to help him deliver pizza and hence the name Pizza Runner was born.
+
+However, with little seed money, Danny has maxed out his credit card on an app to accept deliveries from his customers. With the minimal funding left, Danny needs assistance with better directing his runners during deliveries and to optimize Pizza Runner's operations as a whole. 
+
+Luckily, Danny has provided me with lots of data from his operations. With all the questions Danny has, I will leverage my SQL skills to help Danny's Pizza Runner become the best pizza delivery in town!
 
 ## Entity Relationship Model
 
+Here are the relationships from the different datasets that Danny provided. 
+
 ![PizzaRunner](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/91f48537-46ce-4023-bcd6-91a566b24134)
+
+For further information on the actual data contained in each table, you can find it [here](https://8weeksqlchallenge.com/case-study-2/)
 
 ## Data Scrubbing
 Prior to solving any of the case study questions, I needed to clean up the datasets. Just from initial glance at the provided tables, I noticed that some tables contained null values and other tables had inconsistent variable usage in their columns. Below I discuss the data cleaning I needed to do to the tables in order to make progress with the questions.
