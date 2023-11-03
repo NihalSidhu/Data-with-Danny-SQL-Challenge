@@ -5,7 +5,7 @@ Prior to solving any of the case study questions, I needed to clean up the datas
 At initial glance of the customer_orders table I noticed that there were some issues with it. We can see a few issues, such as
 
 - The 'exclusion's column has multiple values labeled as "null"
-- The 'extras'  column has multiple values labeled as "null" or are actually null.
+- The 'extras'  column has multiple values labeled as "null" or are actually NULL.
 
 *customer_orders table*
 
@@ -37,6 +37,16 @@ Below is how the customer_orders_cleaned table looks like. The new table now con
 ![customer_orders_cleaned](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/ad39e96c-feb9-4cf9-8579-017a80a86966)
 
 ## Cleaning table *runner_orders* 
+When looking over the runner_orders table, I noticed multiple key issues with the dataset. Some of the issues noticed were:
+- The 'pickup_time' 
+
+At initial glance of the customer_orders table I noticed that there were some issues with it. We can see a few issues, such as
+
+- The 'exclusion's column has multiple values labeled as "null"
+- The 'extras'  column has multiple values labeled as "null" or are actually NULL.
+
+
+
 Looking at runner_orders table we can see that there are values labeled "null" and NULL values throughout the table. Along with this, we can see that there are columns with different value types throughout. For example, the distance column has some values with "km" and some without. Similarly, the duration column has some with "minutes" or "mins".  I will create a new table labeled "runner_orders_cleaned" that will replace the messy values with "" and will standardize the values in the distance and duration columns. 
 
 *runner_orders table*
