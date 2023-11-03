@@ -14,14 +14,14 @@
 ## The Problem at Hand
 TO DO
 
-# Entity Relationship Model
+## Entity Relationship Model
 
 ![PizzaRunner](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/91f48537-46ce-4023-bcd6-91a566b24134)
 
-# Data Scrubbing
+## Data Scrubbing
 Prior to solving any of the case study questions, I needed to clean up the datasets. Just from initial glance at the provided tables, I noticed that some tables contained null values and other tables had inconsistent variable usage in their columns. Below I discuss the data cleaning I needed to do to the tables in order to make progress with the questions.
 
-## Cleaning table *customer_orders*
+### Cleaning table *customer_orders*
 At initial glance of the customer_orders table I noticed that there were some issues with it. We can see a few issues, such as
 
 - The 'exclusions' column has multiple values labeled as "null"
@@ -111,7 +111,7 @@ FROM runner_orders
 
 With both cleaned tables, I was then ready to dive into the questions in the case study and use these tables for some querying.
 
-# Pizza Metrics
+## Pizza Metrics
 
 ### 1. How many pizzas were ordered?
 **Query**
