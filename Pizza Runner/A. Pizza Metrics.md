@@ -142,9 +142,21 @@ GROUP BY
 ### 8. How many pizzas were delivered that had both exclusions and extras?
 **Query**
 ````sql
-
+SELECT
+	COUNT(c.order_id) AS pizzas_delivered_with_exclusions_and_extras
+FROM
+	customer_orders_cleaned AS c
+JOIN runner_orders_cleaned AS r
+  ON
+	c.order_id = r.order_id
+WHERE
+	r.distance > 0
+	AND c.exclusions <> ''
+	AND c.extras <> '';
 ````
 **Answer**
+
+![A8](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/fe356649-4409-4896-9f98-6514961e28d4)
 
 ### 9. What was the total volume of pizzas ordered for each hour of the day?
 **Query**
