@@ -161,13 +161,24 @@ WHERE
 ### 9. What was the total volume of pizzas ordered for each hour of the day?
 **Query**
 ````sql
-
+SELECT
+	DATEPART(HOUR, [order_time]) AS hour_time,
+	COUNT(order_id) AS pizza_volume
+FROM
+	customer_orders_cleaned
+GROUP BY
+	hour_time;
 ````
 **Answer**
 
 ### 10. What was the volume of orders for each day of the week?
 **Query**
 ````sql
-
+SELECT
+	DATEPART(WEEKDAY, order_time) as days
+FROM
+	customer_orders_cleaned
+GROUP BY
+	days;
 ````
 **Answer**
