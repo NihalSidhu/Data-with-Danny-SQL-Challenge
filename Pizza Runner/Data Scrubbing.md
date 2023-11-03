@@ -30,7 +30,7 @@ END AS extras,
 order_time
 FROM customer_orders
 ````
-Below is how the customer_orders_cleaned table looks like.
+
 *customer_orders_cleaned table*
 
 ![customer_orders_cleaned](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/ad39e96c-feb9-4cf9-8579-017a80a86966)
@@ -83,8 +83,6 @@ CASE
 END AS cancellation
 FROM runner_orders
 ````
-
-Below is how the runner_orders_cleaned table looks like.
 
 *runner_orders_cleaned table*
 
