@@ -64,6 +64,8 @@ GROUP BY
 ````
 **Answer**
 
+![A4](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/9542952f-ea50-4b66-8a79-373c51e69ff4)
+
 ### 5. How many Vegetarian and Meatlovers were ordered by each customer?
 **Query**
 ````sql
@@ -81,6 +83,8 @@ GROUP BY
 	p.pizza_name;
 ````
 **Answer**
+
+![A5](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/df7060d1-c720-4c6a-b8c6-e63bd00943f8)
 
 ### 6. What was the maximum number of pizzas delivered in a single order?
 **Query**
