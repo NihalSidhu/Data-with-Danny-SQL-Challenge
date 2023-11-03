@@ -11,6 +11,7 @@ FROM
 	customer_orders_cleaned;
 ````
 **Answer**
+![A1](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/492f9ff5-26e2-4ca5-bc18-f2be9e67ae36)
 
 ### 2. How many unique customer orders were made?
 **Query**
