@@ -43,7 +43,7 @@ When looking over the runner_orders table, I noticed multiple key issues with th
 - The 'pickup_time' column has multiple values labeled as 'null'
 - The 'distance' column has no consistency with its usage of 'km' and has multiple values labeled as 'null'
 - The 'duration' column has no consistency with what what term should be used for minutes (mins, minute or minutes). Along with this, it has mutliple values labeled as 'null'
-- The 'cancellation' column has multiple values labeled as "null" or are actually NULL.
+- The 'cancellation' column has multiple values labeled as "null" or are actually NULL
 
 *runner_orders table*
 
