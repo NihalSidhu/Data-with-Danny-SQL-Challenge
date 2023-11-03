@@ -6,9 +6,9 @@
 - Solution
   - [Data Scrubbing](#data-scrubbing)
   - [Pizza Metrics](#pizza-metrics)
-  - [B. Runner and Customer Experience]
-  - [C. Ingredient Optimisation]
-  - [D. Pricing and Ratings]
+  - B. Runner and Customer Experience ~ in progress
+  - C. Ingredient Optimisation ~ in progress
+  - D. Pricing and Ratings ~ in progress
 
 
 ## The Problem at Hand
