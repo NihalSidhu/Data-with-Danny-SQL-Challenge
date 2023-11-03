@@ -14,9 +14,6 @@ FROM
 
 ![A1](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/492f9ff5-26e2-4ca5-bc18-f2be9e67ae36)
 
-<a href="url"><img src="[http://url.to/image.png](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/492f9ff5-26e2-4ca5-bc18-f2be9e67ae36)" align="left" height="48" width="48" ></a>
-
-
 ### 2. How many unique customer orders were made?
 **Query**
 ````sql
