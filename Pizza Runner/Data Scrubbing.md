@@ -55,7 +55,7 @@ With the inconsistencies across the table, I needed to create a new cleaned vers
 - duration: Replaced 'min', 'minute', 'minutes' and 'null' with blanks
 - cancellation: Replaced 'null' and NULL with blanks
   
-All these updates were then applied into a new table, runner_orders_cleaned
+All these updates were then applied into a new table, runner_orders_cleaned.
 
 ````sql
 CREATE Table runner_orders_cleaned AS
@@ -89,4 +89,4 @@ FROM runner_orders
 
 ![runner_orders_cleaned](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/d162d7d3-49f4-4d2b-a542-346f8c4e31eb)
 
-With both cleaned tables, I was then ready to dive into the questions in the case study and use these tables for some queries. The first part, pizza metrics, can be found [here](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/blob/main/Pizza%20Runner/A.%20Pizza%20Metrics.md).
+With both cleaned tables, I was then ready to dive into the questions in the case study and use these tables for some querying. The first part, pizza metrics, can be found [here](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/blob/main/Pizza%20Runner/A.%20Pizza%20Metrics.md).
