@@ -14,7 +14,7 @@
 ## The Problem at Hand
 TO DO
 
-## Entity Relationship Model
+# Entity Relationship Model
 
 ![PizzaRunner](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/91f48537-46ce-4023-bcd6-91a566b24134)
 
