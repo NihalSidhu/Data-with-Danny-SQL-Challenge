@@ -4,7 +4,7 @@ This repository provides my solutions to some of the case studies from [Data wit
 
 These solutions are used to showcase both my experience and aptitude in SQL. Through these case studies I demonstrate my ability to leverage SQL queries to solve real world problems. I hope you enjoy 😊.
 
-## The Case Studies
+## Case Studies
 
 - [Pizza Runner](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/blob/main/Pizza%20Runner/README.md)
 
