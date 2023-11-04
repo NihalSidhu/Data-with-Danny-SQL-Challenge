@@ -8,5 +8,10 @@ These solutions are used to showcase both my experience and aptitude in SQL. Thr
 
 - [Pizza Runner](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/blob/main/Pizza%20Runner/README.md)
 
+## Contact Me
+Email: [nihalsidhu1@gmail.com](mailto:nihalsidhu1@gmail.com])
+
+LinkedIn: [Nihal Sidhu](https://www.linkedin.com/in/nihal-sidhu/)
+
 ## Credits
 A HUGE thank you to [Data with Danny](https://www.youtube.com/c/DannyMa) who created these fantastic case studies. These case studies are derived from some of the problems we face in the world today, making these case studies very interesting. Thanks Danny! 
