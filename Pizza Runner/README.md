@@ -27,7 +27,7 @@ Here are the relationships from the different datasets that Danny provided.
 For further information on the actual data contained in each table, you can find it [here](https://8weeksqlchallenge.com/case-study-2/)
 
 ## Data Scrubbing
-Prior to solving any of the case study questions, I needed to clean up the datasets. Just from initial glance at the provided tables, I noticed that some tables contained null values and other tables had inconsistent variable usage in their columns. Below I discuss the data cleaning I needed to do to the tables in order to make progress with the questions.
+Prior to solving any of the case study questions, I needed to clean up the datasets. Just from looking at the provided tables, I noticed that some tables contained null values and other tables had inconsistent variable usage in their columns. The tables need to be cleaned up before I am able to develop queries to solve some of Danny's questions.
 
 ### Cleaning table *customer_orders*
 At initial glance of the customer_orders table I noticed that there were some issues with it. We can see a few issues, such as
