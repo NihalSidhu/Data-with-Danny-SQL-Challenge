@@ -12,7 +12,7 @@
 
 
 ## The Problem at Hand
-Danny has recently been inspired by local pizza businesses and has decided to open a pizza shop, right inside his home. In order to sell his pizzas to customers from all around, he wants to create a strog delivery system. Danny recruited different runners to help him deliver pizza and hence the name Pizza Runner was born.
+Danny has recently been inspired by local pizza businesses and has decided to open a pizza shop, right inside his home. In order to sell his pizzas to customers from all around, he wants to create a strong delivery system. Danny recruited different runners to help him deliver pizza and hence the name Pizza Runner was born.
 
 However, with little seed money, Danny has maxed out his credit card on an app to accept deliveries from his customers. With the minimal funding left, Danny needs assistance with better directing his runners during deliveries and to optimize Pizza Runner's operations as a whole. 
 
