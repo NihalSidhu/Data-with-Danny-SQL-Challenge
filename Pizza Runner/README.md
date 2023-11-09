@@ -14,7 +14,7 @@
 ## The Problem at Hand
 Danny has recently been inspired by local pizza businesses and has decided to open a pizza shop, right inside his home. In order to sell his pizzas to customers from all around, he wants to create a strong delivery system. Danny recruited different runners to help him deliver pizza and hence the name Pizza Runner was born.
 
-However, with little seed money, Danny has maxed out his credit card on an app to accept deliveries from his customers. With the minimal funding left, Danny needs assistance with better directing his runners during deliveries and to optimize Pizza Runner's operations as a whole. 
+However, with little seed money, Danny has maxed out his credit card on an app to accept deliveries from his customers. With the minimal funding left, Danny needs to figure out ways to optimize the Pizza Runner's operations as a whole. 
 
 Luckily, Danny has provided me with lots of data from his operations. With all the questions Danny has, I will leverage my SQL skills to help Danny's Pizza Runner become the best pizza delivery in town!
 
