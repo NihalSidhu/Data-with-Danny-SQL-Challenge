@@ -187,5 +187,3 @@ GROUP BY
 **Answer**: Solution provided in table below
 
 ![A10](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/d10c4ca5-a271-4b1f-b392-7ee646b06ef9)
-
-Check out my solutions to part B. Runner and Customer Experience [here](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/blob/main/Pizza%20Runner/B.%20Runner%20and%20Customer%20Experience.md)
