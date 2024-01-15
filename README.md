@@ -9,7 +9,7 @@ These solutions are used to showcase both my experience and aptitude in SQL. Thr
 - [Pizza Runner](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/blob/main/Pizza%20Runner/README.md)
 
 ## Contact Me
-Email: [nihalsidhu1@gmail.com](mailto:nihalsidhu1@gmail.com])
+Email: [nss94@cornell.edu](mailto:nss94@cornell.edu)
 
 LinkedIn: [Nihal Sidhu](https://www.linkedin.com/in/nihal-sidhu/)
 
