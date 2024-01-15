@@ -89,4 +89,4 @@ FROM runner_orders
 
 ![runner_orders_cleaned](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/assets/111151666/d162d7d3-49f4-4d2b-a542-346f8c4e31eb)
 
-With both cleaned tables, I was then ready to dive into the questions in the case study and use these tables for some querying. The first part, pizza metrics, can be found [here](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/blob/main/Pizza%20Runner/A.%20Pizza%20Metrics.md).
+With both cleaned tables, I was then ready to dive into the questions in the case study and use these tables for some querying. The first part, pizza metrics, can be found [here](https://github.com/NihalSidhu/Data-with-Danny-SQL-Challenge/blob/main/Pizza%20Runner/Pizza%20Metrics.md)
